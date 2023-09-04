@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">SaveAndRestore</string>
+    <string name="header_text">Enter your name and email for a discount at your favorite Restaurant</string>
+    <string name="first_name_label">First Name : </string>
+    <string name="email_label">Email : </string>
+    <string name="last_name_label">Last Name : </string>
+    <string name="discount_code_button">GET DISCOUNT!!</string>
+    <string name="discount_code_confirmation">Your discount code is below %s. Enjoy!</string>
+</resources>
