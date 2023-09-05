@@ -6,6 +6,7 @@
     <dimen name="grid16">16dp</dimen>
     <dimen name="grid24">24dp</dimen>
     <dimen name="grid32">32dp</dimen>
+    <dimen name="grid48">48dp</dimen>
     <dimen name="default_text_size">20sp</dimen>
     <dimen name="discount_code_text_size">30sp</dimen>
 </resources>

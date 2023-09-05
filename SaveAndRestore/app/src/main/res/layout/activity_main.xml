@@ -53,4 +53,59 @@
         app:layout_constraintEnd_toEndOf="parent"
         />
 
+    <EditText
+        android:id="@+id/email"
+        android:textSize="@dimen/default_text_size"
+        android:layout_marginStart="@dimen/grid24"
+        android:layout_marginEnd="@dimen/grid32"
+        android:layout_marginRight="@dimen/grid32"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/email_label"
+        android:inputType="textEmailAddress"
+        app:layout_constraintTop_toBottomOf="@+id/first_name"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <Button
+        android:id="@+id/discount_button"
+        android:textSize="@dimen/default_text_size"
+        android:layout_marginTop="@dimen/grid12"
+        android:gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/discount_code_button"
+        app:layout_constraintTop_toBottomOf="@id/email"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        />
+
+    <TextView
+        android:id="@+id/discount_code_confirmation"
+        android:gravity="center"
+        android:textSize="@dimen/default_text_size"
+        android:paddingStart="@dimen/grid16"
+        android:paddingEnd="@dimen/grid16"
+        android:layout_marginTop="@dimen/grid_8"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/discount_button"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:hint="@string/discount_code_confirmation"/>
+
+    <TextView
+        android:id="@+id/discount_code"
+        android:gravity="center"
+        android:textSize="@dimen/discount_code_text_size"
+        android:textStyle="bold"
+        android:layout_marginTop="@dimen/grid_8"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintTop_toBottomOf="@+id/discount_code_confirmation"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="parent"
+        tools:text="HFGDSHAFDS"/>
+
+
 </androidx.constraintlayout.widget.ConstraintLayout>
